@@ -23,3 +23,43 @@
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=flat&logo=facebook&logoColor=white)](https://www.facebook.com/itsomprakash84)
 [![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat&logo=github&logoColor=white)](https://github.com/omprakash84)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your-omprakash908987@example.com)
+
+
+## 🎓 Certifications
+| **Course** | **Platform** | **Date** |
+|------------|--------------|----------|
+| Java Programming | Great Learning Academy | July 2024 |
+| Introduction to Computer Networking | Simplilearn SkillUp | August 2024 |
+
+## 📅 Future Plans
+- 🔜 **Advanced Java**:
+  - Explore JavaFX for building GUI applications.
+  - Learn about multithreading and concurrency.
+- 🔜 **DSA Mastery**:
+  - Practice advanced algorithms and problem-solving techniques.
+  - Participate in competitive programming.
+- 🔜 **Web Development**:
+  - Learn HTML, CSS, and JavaScript.
+  - Build full-stack applications using frameworks like Spring and React.
+- 🔜 **Computer Networking**:
+  - Deepen my understanding of network protocols and security.
+  - Explore cloud computing and networking in cloud environments.
+- 🔜 **Cybersecurity**:
+  - Learn about ethical hacking and penetration testing.
+  - Explore cybersecurity tools and best practices.
+
+## 📬 Get in Touch
+- 💼 **LinkedIn**: [Open Profile](https://www.linkedin.com/in/om-prakash-56598521a/)
+- 👻 **Snapchat**: [Open Profile](https://snapchat.com/its_omprakash48/)
+- 📸 **Instagram**: [Open Profile](https://www.instagram.com/its_omprakash48/)
+- 📘 **Facebook**: [Open Profile](https://www.facebook.com/itsomprakash84)
+- 🐙 **GitHub**: [Open Profile ](https://github.com/omprakash84)
+- 📧 **Email**: omprakash908987@example.com
+
+## 💬 Quote
+*"The only way to do great work is to love what you do."* — Steve Jobs
+
+---
+
+*Happy Coding!* 😄
+
