@@ -4,155 +4,252 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Om Prakash Portfolio</title>
+    <title>Om Prakash | Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e2f;
+            color: #dcdcdc;
             margin: 0;
             padding: 0;
-            color: #333;
-            line-height: 1.6;
         }
 
         .container {
-            max-width: 1000px;
+            max-width: 1200px;
             margin: auto;
             padding: 20px;
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: 50px;
+            animation: fadeInDown 1s ease-in-out;
         }
 
         .profile-pic {
             width: 150px;
             height: 150px;
             border-radius: 50%;
+            border: 3px solid #00bcd4;
             object-fit: cover;
+            margin-bottom: 20px;
         }
 
         h1 {
-            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #00bcd4;
         }
 
         p {
             font-size: 18px;
+            line-height: 1.6;
         }
 
         ul {
             list-style: none;
             padding: 0;
+            font-size: 16px;
         }
 
         ul li {
-            display: inline-block;
-            margin-right: 10px;
+            margin: 5px 0;
         }
 
         .badges img {
             vertical-align: middle;
+            margin-right: 5px;
         }
 
         .streak img {
             display: block;
-            margin: 20px auto;
+            margin: 30px auto;
             width: 100%;
-            max-width: 600px;
+            max-width: 650px;
             border-radius: 10px;
         }
 
         .contact a {
             text-decoration: none;
-            margin-right: 10px;
+            margin-right: 15px;
+            font-size: 0;
         }
 
         .contact img {
-            width: 25px;
+            width: 30px;
             vertical-align: middle;
+            transition: transform 0.3s ease;
+        }
+
+        .contact img:hover {
+            transform: scale(1.1);
         }
 
         table {
             width: 100%;
-            margin-top: 20px;
+            margin-top: 30px;
             border-collapse: collapse;
+            border-radius: 8px;
+            overflow: hidden;
         }
 
         table th,
         table td {
-            padding: 10px;
+            padding: 15px;
             text-align: left;
-            border: 1px solid #ccc;
         }
 
         table th {
-            background-color: #0073e6;
+            background-color: #00bcd4;
             color: #fff;
+            font-weight: normal;
         }
 
         table td {
-            background-color: #f9f9f9;
+            background-color: #2a2a3d;
+            color: #dcdcdc;
         }
 
         .quote {
-            font-size: 24px;
+            font-size: 1.5rem;
             font-weight: bold;
             text-align: center;
-            margin: 40px 0;
-        }
-
-        .quote::before {
-            content: open-quote;
-        }
-
-        .quote::after {
-            content: close-quote;
+            margin: 50px 0;
+            color: #ffc107;
         }
 
         footer {
             text-align: center;
             margin-top: 40px;
+            padding: 20px 0;
+            border-top: 1px solid #333;
         }
 
         footer p {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #00bcd4;
+            border-bottom: 2px solid #00bcd4;
+            display: inline-block;
+            animation: fadeInLeft 1s ease-in-out;
+        }
+
+        ul.section-list {
+            margin-top: 20px;
+        }
+
+        ul.section-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #444;
+        }
+
+        ul.section-list li:last-child {
+            border-bottom: none;
+        }
+
+        ol.table-of-contents {
+            margin-top: 20px;
+            padding-left: 20px;
             font-size: 16px;
-            color: #666;
+        }
+
+        ol.table-of-contents li {
+            margin-bottom: 10px;
+            color: #00bcd4;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        ol.table-of-contents li:hover {
+            color: #ffc107;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            table th,
+            table td {
+                font-size: 14px;
+            }
+
+            .quote {
+                font-size: 1.25rem;
+            }
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <!-- Personal Details -->
-        <div>
-            <img class="profile-pic" alt="avatar1"
-                src="https://i.postimg.cc/dtFJ0PBj/Whats-App-Image-2024-08-23-at-11-18-32-AM.jpg" />
+        <!-- Profile Header -->
+        <div class="profile-header">
+            <img class="profile-pic"
+                src="https://i.postimg.cc/dtFJ0PBj/Whats-App-Image-2024-08-23-at-11-18-32-AM.jpg" alt="Om Prakash">
             <h1>Om Prakash</h1>
-            <p>🧑‍🎓 <strong>Education:</strong> 1st Year B.Tech, IES College of Technology<br> 🏆 <strong>Certifications:</strong>
-                Java Programming (Great Learning Academy), Computer Networking (Simplilearn SkillUp)<br>
+            <p>
+                🧑‍🎓 <strong>Education:</strong> 1st Year B.Tech, IES College of Technology<br>
+                🏆 <strong>Certifications:</strong> Java Programming (Great Learning Academy), Computer Networking
+                (Simplilearn SkillUp)
             </p>
-            <p>💻 <strong>Programming Languages:</strong>
+            <p>💻 <strong>Programming Languages:</strong></p>
             <ul class="badges">
-                <li><img src="https://img.shields.io/badge/Java-%23007396.svg?style=flat&logo=java&logoColor=white"> -
-                    Currently Learning</li>
-                <li><img src="https://img.shields.io/badge/Python-%2314354C.svg?style=flat&logo=python&logoColor=white">
-                    - Basic Intermediate Level</li>
-                <li><img src="https://img.shields.io/badge/DSA-%2300599C.svg?style=flat&logo=java&logoColor=white"> - In
-                    Progress</li>
-                <li><img src="https://img.shields.io/badge/Cyber%20Security-%23023e8a.svg?style=flat&logo=cybersecurity&logoColor=white">
-                    Cybersecurity</li>
-                <li><img src="https://img.shields.io/badge/Computer%20Networking-%230197e6.svg?style=flat&logo=networking&logoColor=white">
-                    - In Progress</li>
+                <li><img src="https://img.shields.io/badge/Java-%23007396.svg?style=flat&logo=java&logoColor=white"
+                        alt="Java"> Currently Learning</li>
+                <li><img src="https://img.shields.io/badge/Python-%2314354C.svg?style=flat&logo=python&logoColor=white"
+                        alt="Python"> Basic Intermediate Level</li>
+                <li><img src="https://img.shields.io/badge/DSA-%2300599C.svg?style=flat&logo=java&logoColor=white"
+                        alt="DSA"> In Progress</li>
+                <li><img
+                        src="https://img.shields.io/badge/Cyber%20Security-%23023e8a.svg?style=flat&logo=cybersecurity&logoColor=white"
+                        alt="Cybersecurity"> Cybersecurity</li>
+                <li><img
+                        src="https://img.shields.io/badge/Computer%20Networking-%230197e6.svg?style=flat&logo=networking&logoColor=white"
+                        alt="Computer Networking"> In Progress</li>
             </ul>
-            </p>
         </div>
 
         <!-- GitHub Streak -->
         <div class="streak">
             <a href="https://git.io/streak-stats"><img
                     src="https://streak-stats.demolab.com?user=omprakash84&theme=tokyonight-duo&hide_border=true&exclude_days=Sun"
-                    alt="GitHub Streak" /></a>
+                    alt="GitHub Streak"></a>
         </div>
 
         <!-- Contact Information -->
         <div class="contact">
-            <h2>📬 Get in Touch</h2>
+            <h2 class="section-title">📬 Get in Touch</h2>
             <a href="https://www.linkedin.com/in/om-prakash-56598521a/"><img
                     src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white"
                     alt="LinkedIn"></a>
@@ -172,23 +269,10 @@
 
         <!-- Repository Overview -->
         <div>
-            <h2>📂 Repository Overview</h2>
+            <h2 class="section-title">📂 Repository Overview</h2>
             <p>This repository is dedicated to all the Java-related code, DSA implementations, and projects that I’m
                 working on. Here’s a detailed overview of what you’ll find:</p>
-            <ul>
-                <li><strong>Java Learning Path:</strong> A collection of code snippets, exercises, and mini-projects as
-                    I learn Java.</li>
-                <li><strong>DSA Implementation:</strong> Practical implementations of various algorithms and data
-                    structures.</li>
-                <li><strong>Projects:</strong> Source code of all the projects I build, from simple applications to more
-                    complex systems.</li>
-            </ul>
-        </div>
-
-        <!-- Table of Contents -->
-        <div>
-            <h2>🗂️ Table of Contents</h2>
-            <ol>
+            <ol class="table-of-contents">
                 <li><a href="#java-programs">Java Programs</a></li>
                 <li><a href="#dsa-implementations">DSA Implementations</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -200,47 +284,53 @@
 
         <!-- Java Programs -->
         <div id="java-programs">
-            <h2>🔧 Java Programs</h2>
-            <p><strong>📂 Folder:</strong> Java/</p>
-            <p><strong>💻 Content:</strong></p>
-            <ul>
-                <li>Basic Syntax and Data Types</li>
-                <li>Object-Oriented Programming (OOP) Concepts</li>
-                <li>Exception Handling</li>
-                <li>File Handling</li>
-                <li>Collections Framework</li>
+            <h2 class="section-title">🔧 Java Programs</h2>
+            <ul class="section-list">
+                <li><strong>📂 Folder:</strong> Java/</li>
+                <li><strong>💻 Content:</strong></li>
+                <ul>
+                    <li>Basic Syntax and Data Types</li>
+                    <li>Object-Oriented Programming (OOP) Concepts</li>
+                    <li>Exception Handling</li>
+                    <li>File Handling</li>
+                    <li>Collections Framework</li>
+                </ul>
             </ul>
         </div>
 
         <!-- DSA Implementations -->
         <div id="dsa-implementations">
-            <h2>🔑 DSA Implementations</h2>
-            <p><strong>📂 Folder:</strong> DSA/</p>
-            <p><strong>🧠 Content:</strong></p>
-            <ul>
-                <li>Array Manipulation</li>
-                <li>Linked Lists</li>
-                <li>Stack and Queue Implementations</li>
-                <li>Sorting and Searching Algorithms</li>
-                <li>Trees and Graphs</li>
+            <h2 class="section-title">🔑 DSA Implementations</h2>
+            <ul class="section-list">
+                <li><strong>📂 Folder:</strong> DSA/</li>
+                <li><strong>🧠 Content:</strong></li>
+                <ul>
+                    <li>Array Manipulation</li>
+                    <li>Linked Lists</li>
+                    <li>Stack and Queue Implementations</li>
+                    <li>Sorting and Searching Algorithms</li>
+                    <li>Trees and Graphs</li>
+                </ul>
             </ul>
         </div>
 
         <!-- Projects -->
         <div id="projects">
-            <h2>🌟 Projects</h2>
-            <p><strong>📂 Folder:</strong> Projects/</p>
-            <p><strong>🛠️ Content:</strong></p>
-            <ul>
-                <li><strong>Calculator:</strong> A basic calculator built using Java with support for basic arithmetic
-                    operations.</li>
-                <li><em>(More projects coming soon!)</em></li>
+            <h2 class="section-title">🌟 Projects</h2>
+            <ul class="section-list">
+                <li><strong>📂 Folder:</strong> Projects/</li>
+                <li><strong>🛠️ Content:</strong></li>
+                <ul>
+                    <li><strong>Calculator:</strong> A basic calculator built using Java with support for basic
+                        arithmetic operations.</li>
+                    <li><em>(More projects coming soon!)</em></li>
+                </ul>
             </ul>
         </div>
 
         <!-- Certifications -->
         <div id="certifications">
-            <h2>🎓 Certifications</h2>
+            <h2 class="section-title">🎓 Certifications</h2>
             <table>
                 <thead>
                     <tr>
@@ -266,8 +356,8 @@
 
         <!-- Future Plans -->
         <div id="future-plans">
-            <h2>📅 Future Plans</h2>
-            <ul>
+            <h2 class="section-title">📅 Future Plans</h2>
+            <ul class="section-list">
                 <li><strong>🔜 Advanced Java:</strong>
                     <ul>
                         <li>Explore JavaFX for building GUI applications.</li>
@@ -303,8 +393,7 @@
 
         <!-- Quote -->
         <div class="quote">
-            "The only way to do great work is to love what you do."
-            <br>— Steve Jobs
+            "The only way to do great work is to love what you do." — Steve Jobs
         </div>
 
         <!-- Footer -->
