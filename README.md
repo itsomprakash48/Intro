@@ -79,12 +79,12 @@
   - Explore cybersecurity tools and best practices.
 
 ## 📬 Get in Touch
-- 💼 **LinkedIn**: [Open Profile](https://www.linkedin.com/in/om-prakash-56598521a/)
+- 💼 **LinkedIn**: [Open Profile](https://www.linkedin.com/in/omprakash48/)
 - 👻 **Snapchat**: [Open Profile](https://snapchat.com/its_omprakash48/)
 - 📸 **Instagram**: [Open Profile](https://www.instagram.com/its_omprakash48/)
-- 📘 **Facebook**: [Open Profile](https://www.facebook.com/itsomprakash84)
-- 🐙 **GitHub**: [Open Profile ](https://github.com/omprakash84)
-- 📧 **Email**: omprakash908987@example.com
+- 📘 **Facebook**: [Open Profile](https://www.facebook.com/itsomprakash48)
+- 🐙 **GitHub**: [Open Profile ](https://github.com/itsomprakash48)
+- 📧 **Email**: omprakash908987@gmail.com
 
 ## 💬 Quote
 *"The only way to do great work is to love what you do."* — Steve Jobs
